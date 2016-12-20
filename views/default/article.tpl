@@ -1,20 +1,6 @@
-
-
 <div class="container">
-<div class="row">
-{foreach $rsArticl as $item}
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <div class="caption">
-                  <a href="/?controller=articleInfo&articlNum={$item['article_id']}"><h3>{$item['article_name']}</h3></a>
-              </div>
-            </div>
-          </div>
-{/foreach}
-
-
-
 <!--
+<div class="row">
 {foreach $rsArticleInfo as $item}
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
@@ -32,8 +18,25 @@
             </div>
           </div>
 {/foreach}
--->
 </div>
-</div> 
-  
- 
+-->
+
+<div class="row">
+{foreach $rsArticleInfo as $item}
+    <div class="col-md-6">
+        <img src="img/no_img.jpg" alt="img">
+    </div>
+    <div class="col-md-6">
+        <h2>{$item['article_name']}</h2>
+        <p>{$item['article_description']}</p>
+        <p>Длина: {$item['article_info_length']} мм.</p>
+        <p>Ширина: {$item['article_info_width']} мм.</p>
+        <p>Высота: {$item['article_info_height']} мм.</p>
+        <p>Вес: {$item['article_info_weight']} кг.</p>
+    </div>
+    <a href="#">Добавить в корзину</a>
+    
+{/foreach}
+</div>
+
+</div>

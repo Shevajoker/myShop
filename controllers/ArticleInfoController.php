@@ -14,7 +14,7 @@ function indexAction($smarty){
 
     
     loadTemplate($smarty, 'header');
-    loadTemplate($smarty, 'index');
+    loadTemplate($smarty, 'article');
     loadTemplate($smarty, 'footer');
         
 //    echo 'Category___test!____' .$catId;
