@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2016-12-19 17:06:26
+/* Smarty version 3.1.30, created on 2016-12-23 16:45:42
   from "Z:\home\myshop\www\views\default\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5857db52d5c147_74501257',
+  'unifunc' => 'content_585d1c76076c61_34901058',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f9acedb8540b4de0831df599bce64aa602b62de8' => 
     array (
       0 => 'Z:\\home\\myshop\\www\\views\\default\\header.tpl',
-      1 => 1482152747,
+      1 => 1482497130,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:leftcolum.tpl' => 1,
   ),
 ),false)) {
-function content_5857db52d5c147_74501257 (Smarty_Internal_Template $_smarty_tpl) {
+function content_585d1c76076c61_34901058 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +35,8 @@ function content_5857db52d5c147_74501257 (Smarty_Internal_Template $_smarty_tpl)
 
 <!--bootstrap-->
 <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
 </head>
 <body>
    

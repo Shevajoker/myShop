@@ -1,4 +1,12 @@
 <?php
+session_start();
+//$_SESSION['ses']='189';
+
+if(!isset($_SESSION['cart']))
+{
+    $_SESSION['cart'] = array();
+}
+
 include_once 'config/config.php';
 include_once 'config/db.php';
 include_once 'library/mainFunctions.php';

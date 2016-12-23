@@ -34,9 +34,12 @@
         <p>Высота: {$item['article_info_height']} мм.</p>
         <p>Вес: {$item['article_info_weight']} кг.</p>
     </div>
-    <a href="#">Добавить в корзину</a>
+    <input type="text" id="numToCart" value="0">
+    <a id="addCart_{$item['article_id']}" href="#" onClick="addToCart({$item['article_id']}, document.getElementById('numToCart').value);return false;">Добавить в корзину</a>
     
 {/foreach}
+
+
 </div>
 
 </div>

@@ -9,6 +9,7 @@
                     {/foreach}
                 </ul>
             </div>
+            <div id="cartCntItems">0</div>
         </div>
     </div>
 </div>

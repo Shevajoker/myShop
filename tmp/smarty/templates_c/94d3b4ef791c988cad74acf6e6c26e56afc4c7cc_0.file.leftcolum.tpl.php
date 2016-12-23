@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2016-12-19 16:14:35
+/* Smarty version 3.1.30, created on 2016-12-23 18:19:07
   from "Z:\home\myshop\www\views\default\leftcolum.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5857cf2b852407_22690819',
+  'unifunc' => 'content_585d325b034471_53893327',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '94d3b4ef791c988cad74acf6e6c26e56afc4c7cc' => 
     array (
       0 => 'Z:\\home\\myshop\\www\\views\\default\\leftcolum.tpl',
-      1 => 1482149672,
+      1 => 1482502741,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5857cf2b852407_22690819 (Smarty_Internal_Template $_smarty_tpl) {
+function content_585d325b034471_53893327 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="container">
@@ -44,6 +44,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
                 </ul>
             </div>
+            <div id="cartCntItems">0</div>
         </div>
     </div>
 </div>
